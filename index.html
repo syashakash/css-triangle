@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <style>
+      *,
+      *::after,
+      *::before {
+        margin: 0;
+        padding: 0;
+        box-sizing: inherit;
+      }
+      html {
+        font-size: 62%;
+      }
+      body {
+        font-size: 16px;
+        box-sizing: border-box;
+        background-color: #fcfcfc;
+      }
+
+      .center-div {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+      }
+      .css-triangle {
+        height: 0;
+        width: 0;
+        border-left: 10rem solid transparent;
+        border-right: 10rem solid transparent;
+        border-bottom: 10rem solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="css-triangle center-div"></div>
+  </body>
+</html>
+
